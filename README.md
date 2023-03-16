@@ -63,11 +63,11 @@ graph TD
 n=float(input("digite un numero real : "))
 m=float(input("digite otro numero real : "))
 if m%n==0:
-    print(n," es multiplo de ",m)
+    print(m," es multiplo de ",n)
 else:
-    print(n," no es multiplo de ",m)
+    print(m," no es multiplo de ",n)
 ```    
-En este codigo se usan condicionales y se evalua si el modulo del segundo numero "m" entre el primero "n" es 0, ya que si esto se cumple "n" es multiplo de "m", entonces al ser cero imprime que "n, es multiplo de m",  y si no es cero imprime que "n, no es multiplo de m"
+En este codigo se usan condicionales y se evalua si el modulo del segundo numero "m" entre el primero "n" es 0, ya que si esto se cumple "m" es multiplo de "n", entonces al ser cero imprime que "m, es multiplo de n",  y si no es cero imprime que "n, no es multiplo de m"
 
 
 ### 5.Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
